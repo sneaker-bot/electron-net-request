@@ -1,0 +1,15 @@
+{
+  "name": "net-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "backenddev",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^12.0.1",
+    "uuidv4": "^6.2.6"
+  }
+}
