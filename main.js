@@ -9,7 +9,7 @@ app.whenReady().then(async () => {
 
 	var get = await request.get('https://github.com/imbackenddev', {
 
-		"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
 	    "accept-language": "en",
 	    "cache-control": "no-cache",
 	    "pragma": "no-cache",
@@ -30,7 +30,7 @@ app.whenReady().then(async () => {
 
 	var post = await request.post('https://github.com/imbackenddev', {
 
-		"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
 	    "accept-language": "en",
 	    "cache-control": "no-cache",
 	    "pragma": "no-cache",
@@ -51,7 +51,7 @@ app.whenReady().then(async () => {
 
 	var custom = await request.custom(method, 'https://github.com/imbackenddev', {
 
-		"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
 	    "accept-language": "en",
 	    "cache-control": "no-cache",
 	    "pragma": "no-cache",
