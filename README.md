@@ -1,6 +1,7 @@
 # electron-net-request
 
-This will hopefully make electron net request easier to use. Enjoy :)).
+This will hopefully make electron net request easier to use.
+
 See main.js for examples.
 
 get : (url, headers, proxy, session_id)
